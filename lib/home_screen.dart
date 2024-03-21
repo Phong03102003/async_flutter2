@@ -205,7 +205,7 @@ class ArticleList extends StatelessWidget {
 
   Future<List<Article>> _loadArticlesByCategory(String category) async {
     String url =
-        'https://newsapi.org/v2/everything?q=tesla&from=2024-02-20&sortBy=publishedAt&apiKey=65247db2e60541e0887a3251b6cf13c8';
+        'https://newsapi.org/v2/everything?q=tesla&from=2024-02-21&sortBy=publishedAt&apiKey=65247db2e60541e0887a3251b6cf13c8';
 
     // Thêm danh mục vào URL nếu danh mục không phải là "All"
     if (category != 'All') {
